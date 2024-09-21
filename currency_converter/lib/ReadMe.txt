@@ -1,3 +1,7 @@
+# Code94Labs_currency_converter
+Currency converter application for interview
+
+
 email - isuriadhikari@gmail.com
  API key for currency converter = 'a3c06e312c50b966566a03e2';
 
@@ -13,6 +17,12 @@ A Flutter application that converts currencies using real-time exchange rates. C
 - **Real-Time Currency Conversion:** Fetches up-to-date exchange rates from a reliable API.
 - **Country Flags:** Displays country flags next to currency codes for visual clarity.
 - **Customizable Target Currencies:** Users can add or remove currencies they wish to monitor.
+
+- **API Integration**: Fetches live exchange rates from [ExchangeRate-API](https://www.exchangerate-api.com/).
+- **MVVM Architecture**: Implements the Model-View-ViewModel pattern for clean separation of concerns.
+- **State Management**: Uses the Provider package for efficient state management.
+- **Local Persistence**: Saves user preferences using SharedPreferences.
+- **User-Friendly UI**: Intuitive interface with the ability to add and remove target currencies.
 
 
 
@@ -31,7 +41,7 @@ Follow these instructions to set up and run the project on your local machine.
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/currency_converter_app.git
+   git clone https://github.com/IsuriAdhikari/Code94Labs_currency_converter.git
    cd currency_converter_app
 
 2. For iOS get install  PODS before run the application
